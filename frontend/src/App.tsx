@@ -8,8 +8,8 @@ function App() {
       <Header />
       <main>
         <section id="sales">
-          <div className="dsmeta-controle-largura-container">  
-          <SalesCard />
+          <div className="dsmeta-controle-largura-container">
+            <SalesCard />
           </div>
         </section>
       </main>
@@ -18,4 +18,4 @@ function App() {
 
 }
 
-export default App
+export default App;
