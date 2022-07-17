@@ -11,8 +11,7 @@ type Props = {
 function handleClick(saleId :number){
   axios(`${BASE_URL}/sales/${saleId}/notification`)
   .then( response =>{
-    toast.info("Sms Enviado com Sucesso");
-    console.log("Sucesso");
+    toast.info("Sms Enviado com Sucesso");    
   })
 }
 
